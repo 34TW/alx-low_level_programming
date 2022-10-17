@@ -2,19 +2,23 @@
 
 /**
  * main- the start of the program
- * Description: print zero to ten
+ * Description: prints integer zero to nine
  * Return: always 0
  */
 int main(void)
 {
-	char x;
+	int x;
 
-	for (x = 0; x < 10; x++)
+	x = 0;
+	while (x < 10)
 	{
-		putchar(x);
+		putchar(x + '0');
+		x++;
 	}
-		putchar('\n');
+	putchar('\n');
 	return (0);
 }
+
+
 
 
