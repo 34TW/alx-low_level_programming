@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * main - the start of the program
- * Description: print absolute value of number
- * Return: always o
- */
+* _abs- compute the absoute value of the integer
+* @n: the integer to be computed
+* Return: absloute value
+*/
 int _abs(int n)
 {
 	if (n < 0)
