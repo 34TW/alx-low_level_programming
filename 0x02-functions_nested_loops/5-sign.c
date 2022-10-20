@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * main - the start of the program
- * Description : print char with the return value
- * Return : alwyas 0
+ * print_sign- print the sign of number
+ * @n: the number of the sign to be printed
+ * Return: 1 if the number grater than zero
+ * 0 pf number is 0
+ * -1 if the number less than zero
  */
 int print_sign(int n)
 {
-	int n;
 
 	if (n > 0)
 	{
