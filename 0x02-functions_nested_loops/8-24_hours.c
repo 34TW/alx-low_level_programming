@@ -1,43 +1,25 @@
 #include "main.h"
 
 /**
- * main - teh start of the program
- * Description: print 
- * Return : always 0
+ * jack_bauer- the start of the program
+ * Description: prints minute of the day
  */
 void jack_bauer(void)
 {
-	int x,y;
-	for (i = 0;i <= 24; i++)
+	int i;
+	int j;
+
+	for (i = 0 ; i <= 23 ; i++)
 	{
-		for (j = 0;j <= 60; j++)
+		for (j = 0 ; j <= 59 ; j++)
 		{
-			if (i < 10)
-			{
-
-			_putchar('0');
-			_putcahr(i + '0');
-
-			}
-
-			else if (i > 10)
-			{
-				_putchar(i / 10 + '0')
-					_putchar((i % 10) + '0')
-			}
-			if (j < 10)
-			{
+			_putchar(i / 10 + '0');
+			_putchar((i % 10) + '0');
 			_putchar(':');
-			_putchar('0');
-			_putchar(j + '0');
-			}
-			else if (j > 10)
-			{
-				_putchar((j / 10) + '0');
-					_putchar((j % 10) + '0');
-			}
-		}
-		_putchar('\n');
-	}
-Footer
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
+			_putchar('\n');
+}
+}
+}
 © 2022 GitHub, Inc.
