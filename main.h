@@ -1,8 +1,8 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef HEADER_H
+#define HEADER_H
 
-#include <stdio.h>
+char *_strcat(char *dest, char *src);
 
-void positive_or_negative(int i);
 
-#endif /* MAIN_H */
+
+#endif                                                                                                 
