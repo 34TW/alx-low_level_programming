@@ -4,7 +4,7 @@
 /**
  * main- function prints the number postive zero and negative
  * void: no parameter to the function
- * return: always 0 success
+ * Return: always 0 (success)
  */
 int main(void)
 {
