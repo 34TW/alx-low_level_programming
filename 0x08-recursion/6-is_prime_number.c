@@ -1,5 +1,5 @@
 #include "main.h"
-int check_prime(int n,int i);
+int check_prime(int n, int i);
 /**
  *is_prime_number-function intry
  *@n:parameter int
@@ -16,7 +16,7 @@ int is_prime_number(int n)
  *@i:parameter second int
  *Return:always int
  */
-int check_prime(int n,int i)
+int check_prime(int n, int i)
 {
 	if (n <= i)
 		return (0);
