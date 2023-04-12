@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 *main-function intry
-*@argc__attribute__((unused)):parameter first int
+*@argc:parameter first int
 *@argv:parameter second char
 *Return:always int
 */
