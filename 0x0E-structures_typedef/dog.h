@@ -1,13 +1,24 @@
-#include "main.h"
-struct dog {
+#ifndef DOG_H
+#define DOG_H
+
+/**
+ * struct dog - a dog's basic informtion
+ * @name:first memeber
+ * @age:second member
+ * @owner:third member
+ * Description: longer description
+ */
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
 };
-int main()
-{
-	struct dog my_dog;
-	my_dog.name = 
-		my_dog.age = 
-		my_dog.owner =
-	       printf("My name is %s, and i am age %f", my_dog.name, my_dog.age	
+
+/**
+ * dog_t - typedef for struct dog
+ */
+typedef struct dog dog_t;
+
+
+#endif
